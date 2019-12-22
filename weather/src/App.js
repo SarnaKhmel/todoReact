@@ -1,14 +1,18 @@
 import React from 'react';
+//import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import "bootwatch/journal/bootstrap.css"
 
-function App() {
-  return (
-    <div className="App">
-        <WetherDisplay zip=("1,2,3,4,5")/>
-    </div>
-  );
-}
+import WeekContainer from './WeekContainer';
 
+function App() {
+render() {
+    return (
+      <div>
+        <h1>Hello World!</h1>
+      </div>
+    )
+  }
+}
 export default App;
